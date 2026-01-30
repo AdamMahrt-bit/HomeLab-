@@ -1,8 +1,8 @@
-📌 Overview
+##📌 Overview
 
 This project demonstrates the creation of a virtualized Linux server using Oracle VirtualBox and Ubuntu Server. The goal was to build a safe and isolated environment for learning Linux system administration, networking fundamentals, and web server deployment by installing and testing Nginx.
-
-🛠️ Tools & Technologies
+---
+##🛠️ Tools & Technologies
 
 Oracle VirtualBox Manager
 
@@ -11,14 +11,14 @@ Ubuntu Server 24.04.3 LTS
 Linux
 
 Nginx
-
-❓ Problem Statement
+---
+##❓ Problem Statement
 
 Running services directly on a personal workstation can be unreliable and risky. System misconfigurations or experimental changes may impact the main operating system.
 
 By using virtualization, this project creates an isolated server environment that can be safely reset using snapshots. This allows for hands-on learning and experimentation without affecting the host machine.
-
-🎯 Project Objectives
+---
+##🎯 Project Objectives
 
 Create a Linux server in a virtualized environment
 
@@ -27,49 +27,55 @@ Practice Linux system administration and package management
 Deploy and test a web server using Nginx
 
 Understand basic networking between host and virtual machine
+---
+##⚙️ Implementation Steps & Purpose
+#Step 1: Acquired a home desktop to run the server
 
-⚙️ Implementation Steps & Purpose
-Step 1: Acquired a home desktop to run the server
+-Provides dedicated hardware for hosting the virtual machine
 
-Provides dedicated hardware for hosting the virtual machine
+-Ensures stability without affecting my main workstation
 
-Ensures stability without affecting my main workstation
 
-Step 2: Installed VirtualBox and created a new virtual machine
+#Step 2: Installed VirtualBox and created a new virtual machine
 
-Enables virtualization and system isolation
+-Enables virtualization and system isolation
 
-Simulates a real server environment for learning
+-Simulates a real server environment for learning
 
-Step 3: Selected Linux as the operating system
 
-Linux is the industry standard for server environments
+#Step 3: Selected Linux as the operating system
 
-Builds familiarity with command-line tools and system management
+-Linux is the industry standard for server environments
 
-Step 4: Allocated system resources (2GB RAM, 20GB storage, etc.)
+-Builds familiarity with command-line tools and system management
+
+
+#Step 4: Allocated system resources (2GB RAM, 20GB storage, etc.)
 
 Ensures the virtual machine runs efficiently
 
 Introduces basic hardware resource planning
 
-Step 5: Attached the Ubuntu Server ISO
 
-Provides the bootable installation media for the operating system
+#Step 5: Attached the Ubuntu Server ISO
 
-Mirrors real-world server provisioning practices
+-Provides the bootable installation media for the operating system
 
-Step 6: Installed Ubuntu Server on the virtual machine
+-Mirrors real-world server provisioning practices
 
-Establishes a functional Linux server environment
 
-Forms the foundation for future services and projects
+#Step 6: Installed Ubuntu Server on the virtual machine
 
-Step 7: Configured networking between host and server
+-Establishes a functional Linux server environment
 
-Allows communication between the primary computer and the virtual machine
+-Forms the foundation for future services and projects
 
-Introduces IP addressing and bridged networking concepts
+
+#Step 7: Configured networking between host and server
+
+-Allows communication between the primary computer and the virtual machine
+
+-Introduces IP addressing and bridged networking concepts
 
 Step 8: Updated the system
 
