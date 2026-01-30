@@ -1,4 +1,4 @@
-##📌 Overview
+## 📌 Overview
 
 This project demonstrates the creation of a virtualized Linux server using Oracle VirtualBox and Ubuntu Server. The goal was to build a safe and isolated environment for learning Linux system administration, networking fundamentals, and web server deployment by installing and testing Nginx.
 ---
