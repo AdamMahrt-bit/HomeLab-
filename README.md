@@ -1,2 +1,2 @@
 # HomeLab-
-Personal Home Server Project: Transforming a Dell tower into a remote managed multipurpose server running virtual machines on a Windows platform. Experimenting with server software, virtualization and server administration.
+Personal Home Server Project: A beginner home lab project using VirtualBox and Ubuntu Server to create a virtualized Linux server and deploy Nginx for hands-on learning in system administration and networking.
